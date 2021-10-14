@@ -16,3 +16,9 @@
     align-items: flex-start; /* flex-start | flex-end | center | stretch | baseline */
     align-content: flex-start; /* flex-start | flex-end | center | space-between | space-around | space-evenly | stretch | baseline */
 }
+
+.child {
+    flex-basis: 26vh; /* same as the axis */
+    background-color: teal;
+    color: white;
+}
